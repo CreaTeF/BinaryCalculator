@@ -1,6 +1,6 @@
 #ifndef DECIMAL_ARITHMETIC
 #define DECIMAL_ARITHMETIC
 
-double decimalConvertion(double x);
+double decimalConversion(double x);
 
 #endif // DECIMAL_ARITHMETIC

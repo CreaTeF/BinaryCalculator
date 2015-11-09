@@ -2,10 +2,10 @@
 #include <string>
 #include <stdlib.h>
 
-double decimalConvertion(double x)
+double decimalConversion(double x)
 {
-	int quotient = (int)x;
-	double nBinary;	
+	int quotient = (long int)x;
+	int nBinary;	
 	std::string binary = "";
 
 	while (quotient != 0)
@@ -34,6 +34,6 @@ double decimalConvertion(double x)
 	//converts a string to a double type number.
 	double binaryNumber = atof(binary.c_str());
 
-	return binaryNumber ;
+	return binaryNumber;
 }
 

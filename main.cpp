@@ -21,10 +21,11 @@ int main()
 		switch (option)
 		{
 		case 1:
-			double decimal;
+			int decimal;
 			std::cout << "Enter the number that you want to convert: " << std::endl;
 			std::cin >> decimal;
-			std::cout << "The convertion of " << decimal << " to binary is: " << decimalConvertion(decimal) << std::endl;
+			std::cout.precision(0);
+			std::cout << "The convertion of " << decimal << " to binary is: " << std::fixed << decimalConversion(decimal) << std::endl;
 			break;
 		case 2:
 			// BinaryConverion();
