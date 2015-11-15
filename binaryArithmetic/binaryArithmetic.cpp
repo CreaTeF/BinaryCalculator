@@ -13,7 +13,7 @@ std::string binaryConversion(std::string binary)
 		
 		if (binary.c_str()[index] == '1')
 		{
-			decimal +=+ pow(2, counter);
+			decimal += pow(2, counter);
 			counter++;
 		}
 		else
