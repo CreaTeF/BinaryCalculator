@@ -22,6 +22,6 @@ std::string binaryConversion(std::string binary)
 		}
 	}
 
-	//it converts a double týpe to string.
+	//it converts a double type to string.
 	return std::to_string((int)decimal);
 }
