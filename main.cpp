@@ -1,10 +1,12 @@
 #include <iostream>
+#include <string>
 #include "./binaryArithmetic/binaryArithmetic.h"
 #include "./decimalArithmetic/decimalArithmetic.h"
 
 
 int main()
 {
+	std::string binary;
 	int option;
 	do {
 		std::cout << "\tWelcome To The CreaTed's Calculator" << std::endl;
@@ -25,10 +27,12 @@ int main()
 			std::cout << "Enter the number that you want to convert: " << std::endl;
 			std::cin >> decimal;
 			std::cout.precision(0);
-			std::cout << "The convertion of " << decimal << " to binary is: " << std::fixed << decimalConversion(decimal) << std::endl;
+			std::cout << "The conversion of " << decimal << " to binary is: " << std::fixed << decimalConversion(decimal) << std::endl;
 			break;
 		case 2:
-			// BinaryConverion();
+			std::cout << "Enter the number that you want to convert: " << std::endl;
+			std::cin >> binary;
+			std::cout << "The conversion of " << binary << " to decimal is: "  << binaryConversion(binary) << std::endl;
 			break;
 		case 3:
 			int decimalOption;
