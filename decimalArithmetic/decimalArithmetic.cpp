@@ -30,7 +30,7 @@ double decimalConversion(double x)
 		binary = "0" + binary;
 	}
 
-	//converts a string to a double type number.
+	// Converts string to double.
 	double binaryNumber = atof(binary.c_str());
 
 	return binaryNumber;
