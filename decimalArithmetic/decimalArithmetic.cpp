@@ -36,3 +36,22 @@ double decimalConversion(double x)
 	return binaryNumber;
 }
 
+double decimalAddition(double a, double b)
+{
+	return a + b;
+}
+
+double decimalSubtraction(double a, double b)
+{
+	return a - b;
+}
+
+double decimalMultiplication(double a, double b)
+{
+	return a * b;
+}
+
+double decimalDivision(double a, double b)
+{
+	return a / b;
+}
