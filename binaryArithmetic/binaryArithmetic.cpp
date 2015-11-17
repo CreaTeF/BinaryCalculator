@@ -28,6 +28,6 @@ std::string binaryConversion(std::string binary)
 		}
 	}
 
-	// Converts a double to string.
+	// Converts double to string.
 	return std::to_string((int)decimal);
 }
